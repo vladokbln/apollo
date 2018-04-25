@@ -1,0 +1,80 @@
+@import 'fonts.less';
+@import 'libs.less';
+@import 'vars.less';
+
+html { 
+  line-height: 1;
+  font-size: 18px;
+}
+
+body {
+  font-family: @mainFonts;
+  color: @mainColor;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+ul,li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}  
+p {
+  margin: 0;
+}  
+a {
+  text-decoration: none;
+  color: black;
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}  
+textarea {
+  resize: none;
+}
+section {
+  width: 100%;
+  margin-bottom: 50px;
+  background: @bgColor;
+}
+input,
+select,
+button {
+  outline: none;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+.clearfix::after { 
+    content: '';
+    clear: both; 
+    display: block;
+   }
+.wrapper {
+  width: 100%;
+  padding: 0 50px;
+  padding-top: 50px;
+}
+.container {
+  position: relative;
+  max-width: 1500px;
+  min-height: 750px;
+  margin: 0 auto;
+}
+
+@import 'common.less';
+@import 'sections/home.less';
+@import 'sections/about.less';
+@import 'sections/slider.less';
+@import 'sections/ad_minin.less';
+@import 'sections/slider-to.less';
+@import 'sections/contacts.less';
+
+
+@import 'media.less';
+

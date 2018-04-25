@@ -1,0 +1,23 @@
+{
+  "name": "Apollo",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "vladokbln <vladokbln@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "slick-carousel": "^1.8.1",
+    "normalize.css": "^8.0.0",
+    "components-font-awesome": "^5.0.6"
+  }
+}
