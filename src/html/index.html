@@ -148,10 +148,10 @@
 						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
 					</p>
 				</div>
-				<form class="contacts-form">
-					<input type="email" name="email" placeholder="Your Email">
-					<input type="name" name="subject" placeholder="Subject">
-					<textarea placeholder="Message"></textarea>
+				<form class="contacts-form" action="contact-form.php" method="post">
+					<input type="email" name="email" placeholder="Your Email" required>
+					<input type="text" name="subject" placeholder="Subject">
+					<textarea name="message" placeholder="Message" required></textarea>
 					<input class="contacts-form__btn" type="submit" value="send message">
 				</form>
 			</div>

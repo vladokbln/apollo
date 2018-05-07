@@ -36,6 +36,10 @@ video {
 }  
 textarea {
   resize: none;
+  outline: none;
+  &:focus {
+    outline: none;
+  }
 }
 section {
   width: 100%;
@@ -46,6 +50,9 @@ input,
 select,
 button {
   outline: none;
+  &:focus {
+    outline: none;
+  }
 }
 *, *:before, *:after {
   box-sizing: border-box;
